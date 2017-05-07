@@ -1,11 +1,11 @@
 package com.icta.qualitycoder.hrapp.api;
 
-import com.icta.qualitycoder.hrapp.command.Command;
-import com.icta.qualitycoder.hrapp.command.CommandFactory;
-import com.icta.qualitycoder.hrapp.command.ViewLeavesCommand;
-import com.icta.qualitycoder.hrapp.command.ViewPaySheetCommad;
 import com.icta.qualitycoder.hrapp.security.SecurityManager;
 import com.icta.qualitycoder.hrapp.security.SecurityManagerImpl;
+import com.icta.qualitycoder.hrapp.views.Command;
+import com.icta.qualitycoder.hrapp.views.CommandFactory;
+import com.icta.qualitycoder.hrapp.views.ViewLeavesCommand;
+import com.icta.qualitycoder.hrapp.views.ViewPaySheetCommad;
 
 public class ApiFacadeImpl implements ApiFacade {
 

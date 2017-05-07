@@ -1,4 +1,4 @@
-package com.icta.qualitycoder.hrapp.command;
+package com.icta.qualitycoder.hrapp.views;
 
 public class CommandFactory {
 

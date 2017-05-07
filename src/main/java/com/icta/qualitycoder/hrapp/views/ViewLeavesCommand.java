@@ -1,15 +1,16 @@
-package com.icta.qualitycoder.hrapp.command;
+package com.icta.qualitycoder.hrapp.views;
 
-public class ViewPaySheetCommad implements Command {
+public class ViewLeavesCommand implements Command {
 
-   private String employeeId;
-   
-    public ViewPaySheetCommad(String employeeId) {
+    private String employeeId;
+
+    public ViewLeavesCommand(String employeeId) {
         this.setEmployeeId(employeeId);
     }
 
+    @Override
     public void execute() {
-       System.out.println("Executing viewPaySheet");
+        System.out.println("Executing view leave command ");
     }
 
     public String getEmployeeId() {
