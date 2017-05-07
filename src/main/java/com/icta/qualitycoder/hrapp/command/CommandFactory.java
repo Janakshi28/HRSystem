@@ -1,14 +1,11 @@
 package com.icta.qualitycoder.hrapp.command;
 
-import org.clapper.classutil.ClassFinder;
-
 public class CommandFactory {
 
     public static Command getCommand(String empid, String command) {
-        Command executableCommand = null;
         
-        ClassFinder classFinder = new ClassFinder();
-        List<Class<? extends Command>> classes = classFinder.findAllMatchingTypes(Command.class);
+        Command executableCommand = null;
+
         switch (command) {
             case "ViewPaySheetCommad":
                 executableCommand = new ViewPaySheetCommad(empid);
@@ -17,8 +14,6 @@ public class CommandFactory {
             default:
                 break;
         }
-
-        
         return executableCommand;
     }
 
