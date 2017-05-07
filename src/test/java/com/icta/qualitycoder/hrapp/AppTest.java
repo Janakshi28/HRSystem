@@ -1,4 +1,4 @@
-package com.icta.qualitycoder.hr_app;
+package com.icta.qualitycoder.hrapp;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
